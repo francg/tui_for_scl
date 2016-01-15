@@ -1,8 +1,10 @@
-\subsection{Connection with smart cities}
+\subsection{Characteristics of Smart City Learning Applications}
+
+...what are smart city learning applications?
 
 Some of the activities that are needed and connected to the smart city learning scenarios involves:
 
-\begin{itemize}
+\begin{itemize} %why these dimensions are important for learning?
 \item data collection
 \item data visualization
 \item data processing
@@ -13,18 +15,18 @@ Some of the activities that are needed and connected to the smart city learning 
 We identified how these activities can be supported with tangible interfaces.
 
 \subsubsection{Data collection}
-Sensor data can be captured embedding proper electronics in augmented objects or electronics toolkits.
-Some of this \textit{sensing} capabilities are necessary to actually allow augmented user interactions (e.g. accelerometers, gyro).
-Despite this, raw data sensed can be manipulated and processed also for other purposed more connected to the ambient sensing than remaining limited to only sense user (rich) interaction.
-The opportunity to flexibly and quickly prototype custom devices, allow to embed with a relatively low cost several different sensors.
-The opportunity to situate devices both on the environment and physically on the users widens the domain where data collection take place.
+Sensor data can be captured embedding proper electronics in augmented objects and public or private spaces.
+Some of this \textit{sensing} capabilities (e.g. accelerometers, gyro) are necessary to actually allow sensor-based user interactions; for example detecting the presence of public in a space and react with an appropriate feedback. Besides this, raw data sensed can be manipulated and processed also for other purposed more connected to the application logic rather than remaining limited to only sense user interaction.
+The opportunity to flexibly and quickly prototype custom devices offered by todays' tools such as Arduino [REF], allow to quickly explore multiple design choices adopting several different sensors.
+The opportunity to situate sensing capabilities both in the environment and physically on the users widens the domain where data collection take place.
+
+Mobility of sensors embedded in TUIs vs city infrastructure
 
 \subsubsection{Data visualization}
-Citizens living everyday in the city can be subjected to common life situations where the most suitable strategies of consuming information can be fairly different.
-TUIs can efficiently implement more traditional strategies for data visualization like small screens and speech/sound output. Their real strength is although more linked to the concepts of glances and low tech outputs that can shuttle simple information to the user in a very fast and effective way.
+Citizens everyday living the city can be subjected to common life situations where the most suitable interfaces for accessing information can be fairly different. For example train schedule information can be provided by a screen-based interface when at home or by a wearable interface while riding a bike to the station. The capability of delivering the right content at the right time is important because it could improve learning efficacy [REF?]. Tangible interfaces can deliver information using non distracting interfaces such as haptic or ambient feedbacks that might be more appropriate than screens when on the go. that can shuttle simple information to the user in a very fast and effective way.
 Simple output components can be combined to implement custom-designed and tailored output primitives. For example a custom shaped led matrix.
 
-\subsubsection{Data processing}
+\subsubsection{Data processing} %How data processing is used for SCL applications?
 Processing of sensed data can introduce a variety of challenges and demands for compromises. Being TUIs connected devices by nature, two main alternatives are feasible, depending on the nature of data and the processing power available. Data can be either processed on-board, transmitted to an external service for storing and/or processing. An hybrid approach can also be used, where data is pre-elaborated or filtered on board and then transmitted for further processing.
 We can then state that the best strategy is influenced by:
 \begin{itemize}
@@ -34,12 +36,12 @@ We can then state that the best strategy is influenced by:
     \item network availability and capabilities
 \end{itemize}
 
-\subsubsection{User interaction}
+\subsubsection{User interaction} %this overlaps with sec 2.1.2
 In many smart city scenarios, users cannot always devote their full attention to interact with devices. TUIs helps at this regard allowing several interaction strategies that can be less distracting and immersive when the scenario does not require it.
 Background and foreground interaction methods are both implementable, as well as multi-modal strategies where users can interact via different channels at the same time. Interaction can also be distributed in the space, involving actions performed on/with different augmented object situated in the space.
 
 \subsubsection{Sharing of artifacts and information}
-Technologies like big screens and mobile devices, often used in smart city learning scenarios, present some constraints that are quite rigid and difficult to overcome. For example mobile devices are proven to support cooperative activities and information sharing, but they physically remain strictly personal apparatus that are not comfortably shared even with close persons.
+Technologies like big screens and mobile devices, often used in smart city learning scenarios, present some constraints that are quite rigid and difficult to overcome. For example mobile devices are proven to support cooperative activities and information sharing, but they physically remain strictly personal apparatus that are not comfortably shared even among friends and relatives.
 Public displays are instead useful only to present information that is relevant for a defined geographical place, usually where the display itself is located. The nature of information should also be generic enough to not introduce privacy concerns.
 With TUIs it is possible to fill the gap between public and personal/private. Devices can be tailored and adapted to support use cases where the users are comfortably sharing objects and information.
 The added flexibility allow for several level of experience that can freely space between the \textit{private} and the \textit{public}.
@@ -51,8 +53,8 @@ This project achieves overcoming the encapsulation of school learning by using I
 In \cite{luff_mobility_1998} an analysis of technology-supported coordination mechanisms is provided for several scenarios.
 After investigating a urban scenario in London's underground they reported that 
 
-\textit{For example, in distributing technologies around the environment developing support for station supervisors would appear to be a prototypical case of ‘ubiquitous computing’ or
-‘augmented reality’. However, although typical developments in these areas aim to support tasks and activities by augmenting everyday artifacts with computational capabilities it is not all that clear which artifacts are most relevant for such enhancement or what capabilities should be augmented}
+\textit{For example, in distributing technologies around the environment developing support for station supervisors would appear to be a prototypical case of "ubiquitous computing" or
+"augmented reality". However, although typical developments in these areas aim to support tasks and activities by augmenting everyday artifacts with computational capabilities it is not all that clear which artifacts are most relevant for such enhancement or what capabilities should be augmented}
 
 It is also mentioned that this type of technologies are able to support coordination mechanisms demonstrated to be essential for the scenarios examined, like micro-mobility, ubiquitous information retrieval and glances.
 
